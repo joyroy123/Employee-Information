@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Info</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <table>
+        <tr>
+            <td>
+                <form action="" onsubmit="event.preventDefault(); onFormSubmit();" autocomplete="off">
+                    <div>
+                        <label for="">Full Name*</label>
+                        <input type="text" name="fullName" id="fullName" required>
+                    </div>
+                    <div>
+                        <label for="">EMP ID*</label>
+                        <input type="text" name="empId" id="empId" required>
+                    </div>
+                    <div>
+                        <label for="">Salary*</label>
+                        <input type="number" name="salary" id="salary" required>
+                    </div>
+                    <div>
+                        <label for="">City*</label>
+                        <input type="text" name="city" id="city" required>
+                    </div>
+                    <div class="form-action-buttons">
+                        <input type="submit" name="" id="" value="Submit">
+                    </div>
+                </form>
+            </td>
+            <td>
+                <table class="list" id="employeeList">
+                    <thead>
+                        <tr>
+                            <th>Full Name</th>
+                            <th>Emp ID</th>
+                            <th>Salary</th>
+                            <th>City</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+    </table>
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
